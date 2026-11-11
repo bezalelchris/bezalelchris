@@ -4,7 +4,7 @@
 
 I like building at both ends of the stack: Linux kernel modules and parsers in C/C++ on one side, full-stack web apps on the other. Whatever the layer, I measure before I build and test what I ship.
 
-**Right now:** senior in Honors CS at ASU, Scrum master on my capstone (*My Hockey Pro*, for an external sponsor), and looking for **Summer 2027 software engineering internships**.
+**Right now:** senior in Honors CS at ASU, Scrum master on my capstone (*My Hockey Pro*, for an external sponsor), and looking for **new grad software engineering roles** starting after I graduate in May 2027.
 
 [LinkedIn](https://linkedin.com/in/bezalelchris) &nbsp;/&nbsp; [Show Radar](https://github.com/bezalelchris/Show-Radar) &nbsp;/&nbsp; [All repos](https://github.com/bezalelchris?tab=repositories)
 
@@ -83,4 +83,4 @@ Coursework I'm proudest of, all in C and C++:
 
 <br>
 
-<p align="center"><sub>Based in Chandler, Arizona. Happy to talk internships, systems, or music. <a href="https://linkedin.com/in/bezalelchris">Say hi on LinkedIn.</a></sub></p>
+<p align="center"><sub>Based in Chandler, Arizona. Happy to talk new grad roles, systems, or music. <a href="https://linkedin.com/in/bezalelchris">Say hi on LinkedIn.</a></sub></p>
