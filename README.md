@@ -1,68 +1,86 @@
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=900&color=8B5CF6&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Bezalel+%F0%9F%91%8B;CS+%40+Arizona+State+University;I+turn+messy+real-world+data+into+useful+tools" alt="Typing SVG" />
-  </a>
+  <img src="assets/banner.svg" alt="Bezalel Chris, software engineer and CS Honors student at Arizona State University" width="100%">
 </p>
+
+I like building at both ends of the stack: Linux kernel modules and parsers in C/C++ on one side, full-stack web apps on the other. Whatever the layer, I measure before I build and test what I ship.
+
+**Right now:** senior in Honors CS at ASU, Scrum master on my capstone (*My Hockey Pro*, for an external sponsor), and looking for **Summer 2027 software engineering internships**.
+
+[LinkedIn](https://linkedin.com/in/bezalelchris) &nbsp;/&nbsp; [Show Radar](https://github.com/bezalelchris/Show-Radar) &nbsp;/&nbsp; [All repos](https://github.com/bezalelchris?tab=repositories)
+
+<br>
+
+## Things I've built
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/bezalelchris/Show-Radar"><img src="https://raw.githubusercontent.com/bezalelchris/Show-Radar/main/docs/screenshot.png" alt="Show Radar"></a>
+      <h3>Show Radar</h3>
+      Concert alerts for artists you follow. Cleans messy Ticketmaster listings and merges duplicates: <b>600 listings → 544 shows</b>, perfect precision and recall on a hand-labeled eval set, enforced in CI.
+      <br><br>
+      <sub>Python · FastAPI · SQLite · pytest · GitHub Actions</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://bezalelchris.github.io/Data-Structure-Visualizer/"><img src="https://raw.githubusercontent.com/bezalelchris/Data-Structure-Visualizer/main/docs/screenshot.png" alt="Sorting Visualizer"></a>
+      <h3>Sorting Visualizer</h3>
+      Four sorting algorithms, step by step, with live comparison and swap counts. At n = 120, insertion sort takes thousands of comparisons; merge sort takes about 700.
+      <br><br>
+      <sub>JavaScript · HTML · CSS · <a href="https://github.com/bezalelchris/Data-Structure-Visualizer">code</a></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://bezalelchris.github.io/Expense-tracker/"><img src="https://raw.githubusercontent.com/bezalelchris/Expense-tracker/main/docs/screenshot.png" alt="Expense Tracker"></a>
+      <h3>Expense Tracker</h3>
+      Balance at a glance and a spending-by-category breakdown. XSS-safe rendering and a migration that keeps old saved data working.
+      <br><br>
+      <sub>JavaScript · localStorage · <a href="https://github.com/bezalelchris/Expense-tracker">code</a></sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://bezalelchris.github.io/Pomodoro-Timer/"><img src="https://raw.githubusercontent.com/bezalelchris/Pomodoro-Timer/main/docs/screenshot.png" alt="Pomodoro Timer"></a>
+      <h3>Pomodoro Timer</h3>
+      Focus and break cycles with a progress ring. Timestamp-based countdown that doesn't drift in background tabs, plus a Web Audio chime.
+      <br><br>
+      <sub>JavaScript · Web Audio API · <a href="https://github.com/bezalelchris/Pomodoro-Timer">code</a></sub>
+    </td>
+  </tr>
+</table>
+
+Also built: an **NLP sentiment analyzer** web app (Python, Flask, Streamlit, scikit-learn) at 90%+ accuracy, deployed on Render.
+
+## Under the hood
+
+Coursework I'm proudest of, all in C and C++:
+
+- **USB block device driver** as a Linux kernel module: reads and writes through the BIO layer via `ioctl`, in 512-byte chunks.
+- **Process memory allocator** kernel module exposed through a virtual device, with page-table walking and errno-specific failures.
+- **Recursive-descent compiler front end** that generates an intermediate representation for a small language (130/130).
+- **Table-driven LL(1) parser** computing FIRST, FOLLOW and predict sets and reconstructing leftmost derivations.
+
+## Experience
+
+<table>
+  <tr>
+    <td width="36%" valign="top"><b>Engineering Intern</b><br>Innavion Technologies<br><sub>May – Jul 2026</sub></td>
+    <td valign="top">Built UI on an Angular 19 + PrimeNG front end over a Java, MongoDB, Elasticsearch and AWS stack.</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Robotic & Software Engineering Intern</b><br>Indo MIM, San Antonio<br><sub>Apr – Jun 2024</sub></td>
+    <td valign="top">Programmed Fanuc pick-and-place automation: <b>+20% productivity</b> in secondary operations, and one operator now runs two machines.</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Scrum Master</b><br><i>My Hockey Pro</i> capstone, ASU<br><sub>2026 – present</sub></td>
+    <td valign="top">Run sprints and the Taiga board for a five-person team building a digital trading-card creator for an external sponsor.</td>
+  </tr>
+</table>
+
+## Toolbox
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=bezalelchris&style=flat-square&color=8B5CF6&label=PROFILE+VIEWS" alt="profile views" />
+  <img src="assets/skills.svg" alt="Languages: Java, C, C++, Python, JavaScript, SQL, Bash, Prolog, HTML, CSS. Systems: Linux kernel modules, ioctl and block I/O, recursive-descent parsers, LL(1) parsing, JUCE. Backend and data: FastAPI, Flask, REST APIs, MongoDB, Elasticsearch, SQLite, Supabase. Frontend: Angular 19, PrimeNG, vanilla JS, responsive and accessible UI, Streamlit. AI and ML: scikit-learn, NLP sentiment analysis, evaluation sets and metrics. Cloud and tools: AWS, Render, GitHub Pages, GitHub Actions, pytest, Git, Linux. Ways of working: Scrum master, Taiga, Trello, code review and PRs, Fanuc robot programming." width="100%">
 </p>
 
----
+<br>
 
-> *I like the unglamorous part of building: cleaning noisy data, measuring before building, and testing what I ship.*
-
----
-
-## 🛠 Tech stack
-
-**Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-**Frameworks & data**
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-
-**Tools**
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-
-## 🚀 Featured projects
-
-**[🎟 Show Radar](https://github.com/bezalelchris/Show-Radar)**
-Follow artists and get alerted when they announce a Phoenix show, go on sale, or get rescheduled. Cleans and deduplicates messy Ticketmaster listings: **600 real listings → 544 shows, 100% precision/recall on a hand-labeled eval set** (vs. 22% recall for exact-name matching), gated in CI.
-`Python` `FastAPI` `SQLite` `Ticketmaster API` `pytest`
-
-**[📊 Sorting Visualizer](https://github.com/bezalelchris/Data-Structure-Visualizer)** · [Live demo](https://bezalelchris.github.io/Data-Structure-Visualizer/)
-Bubble, selection, insertion and merge sort, step by step with live comparison and swap counts. **Run n=120 and watch insertion sort's thousands of comparisons vs. merge sort's ~700.** No libraries.
-`JavaScript` `HTML` `CSS`
-
-**Smaller builds:** [Expense Tracker](https://bezalelchris.github.io/Expense-tracker/) (category breakdown, XSS-safe rendering) · [Pomodoro Timer](https://bezalelchris.github.io/Pomodoro-Timer/) (drift-free countdown, Web Audio chime)
-
-**🏒 My Hockey Pro** · Capstone
-Platform for designing digital hockey trading cards.
-`In progress`
-
-## 📊 GitHub stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bezalelchris&layout=compact&langs_count=8&card_width=320&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=bezalelchris&theme=tokyonight&hide_border=true" />
-</p>
-
-## 🔗 Find me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-HANDLE)
-
----
-
-<p align="center"><i>Looking for Summer 2027 SWE internships. Let's talk.</i></p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
+<p align="center"><sub>Based in Chandler, Arizona. Happy to talk internships, systems, or music. <a href="https://linkedin.com/in/bezalelchris">Say hi on LinkedIn.</a></sub></p>
